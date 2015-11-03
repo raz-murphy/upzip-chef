@@ -1,9 +1,9 @@
 #
 # Cookbook Name:: zip
 #
-#Copyright 2015 - , Ryan Murphy
+# Copyright 2015 - , Ryan Murphy
 #
 
-package 'unzip' do
+package ['unzip','zip'] do
   action :install
 end
